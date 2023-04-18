@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: white;
+   position: absolute;
+   left: 190px;
+}
+header img{
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 220px;
+    
+}
+header ul li{
+  
+    list-style: none;
+    margin-left: 50px;
+    font-weight: 600;
+}
+header ul a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+header ul a:hover{
+    font-size: large;
+    text-decoration: underline;
+    color: violet;
+}
+
+header button{
+  
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: #ba0cc5;
+  
+    margin-right: 35px;
+    border-radius: 5px;
+}
+
+header button:hover{
+    background-color: white;
+    color: #ba0cc5;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+main{
+    margin-top: 0;
+    background-image: url(./assets/bg.png);
+    background-attachment:fixed;
+  
+   background-size: cover;
+   height: 90vh;
+  text-align: center;
+    
+  
+}
+
+main h1{
+     padding-top: 130px;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 900;
+    color:white;
+   
+    
+
+}
+
+main p{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+main button{
+    margin-top: 20px;
+   
+    font-size: 20px;
+    padding: 10px;
+    
+    
+   
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: #ba0cc5;
+  
+   
+    border-radius: 5px;
+}
+
+main button:hover{
+    background-color: white;
+    color: #ba0cc5;
+    cursor:pointer;
+    
+}
